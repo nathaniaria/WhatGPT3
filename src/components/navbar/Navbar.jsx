@@ -6,10 +6,10 @@ import './Navbar.css'
 
 const Menu = () => (
   <>
-    <p><a className='gpt3__navbar-link' href="#Home">Home</a></p>
+    <p><a className='gpt3__navbar-link' href="#home">Home</a></p>
     <p><a className='gpt3__navbar-link' href="#whatgtp3">What is GPT3?</a></p>
-    <p><a className='gpt3__navbar-link' href="#possibility">Open AI</a></p>
     <p><a className='gpt3__navbar-link' href="#features">Case Studies</a></p>
+    <p><a className='gpt3__navbar-link' href="#possibility">Open AI</a></p>
     <p><a className='gpt3__navbar-link' href="#blog">Library</a></p>
   </>
 )
@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} />
+          <img src={logo} alt='logo'/>
         </div>
         <div className="gpt3__navbar-links_container">
           <Menu />
