@@ -1,6 +1,7 @@
 .gpt3__possibility {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .gpt3__possibility-image {

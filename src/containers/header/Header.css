@@ -64,7 +64,7 @@
     border: 2px solid #FF4820;
     padding: 0 1rem;
     color: #fff;
-    cursor: pointer;
+    cursor: not-allowed;
     outline: none;
 
     border-top-right-radius: 5px;
